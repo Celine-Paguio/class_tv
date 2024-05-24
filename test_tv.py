@@ -15,14 +15,14 @@ def test_tv():
 # Increase channel number by 1
     # tv_1.channel_up()
 # Decrease the channel number by 1
-    tv_1.channel_down()
+    # tv_1.channel_down()
 # Set volume for tv 1
 # Set channel for tv 2
     tv_2.set_channel(3)
 # Increase channel number by 1
     # tv_2.channel_up()
 # Decrease the channel number by 1
-    tv_2.channel_down()
+    # tv_2.channel_down()
 # Set volume for tv 2
 # Print the output
     print("tv1's channel is" ,tv_1.get_channel())
