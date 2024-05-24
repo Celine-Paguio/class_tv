@@ -37,3 +37,5 @@ class tv:
 # Increases the volume of the tv by 1
 # Decreases the volume of the tv by 1
 # Gets the volume level for this tv
+    def get_volume(self):
+        return self.volume
