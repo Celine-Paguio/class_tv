@@ -11,11 +11,12 @@ def test_tv():
 # Turn on tv 2
     tv_2.turn_on()
 # Set channel for tv 1
+    tv_1.set_channel(30)
 # Set volume for tv 1
 # Set channel for tv 2
 # Set volume for tv 2
 # Print the output
-    print("tv 1 is turn on", tv_1.get_on_or_off())
-    print("tv 2 is turn on", tv_2.get_on_or_off())
+    print("tv1's channel is" ,tv_1.get_channel())
+#   print("tv 2 is turn on", tv_2.get_on_or_off())
 # Call the test_tv function to produce the output
 test_tv()
