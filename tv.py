@@ -1,6 +1,7 @@
 # This program creates a class named tv and a test driver named test_tv that will create two objects from class tv
 
 # Define the tv class
+class tv:
 # Use constructor
 # Set the initial state of the tv
 # Turns on the tv
