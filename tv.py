@@ -5,6 +5,7 @@ class tv:
 # Use constructor
     def __init__(self):
 # Set the initial state of the tv
+        self.on = False
 # Turns on the tv
 # Turns off the tv
 # Get if the tv is on or off
