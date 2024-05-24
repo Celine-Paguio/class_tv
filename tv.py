@@ -13,6 +13,8 @@ class tv:
     def turn_off(self):
         self.on = False
 # Get if the tv is on or off
+    def get_on_or_off(self):
+        return self.on
 # Returns the channel for this tv
 # Set a new channel for the tv
 # Set a new volume for the tv
