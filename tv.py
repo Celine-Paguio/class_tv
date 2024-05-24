@@ -35,6 +35,9 @@ class tv:
         if self.on and (1 <= volume <= 7):
             self.volume = volume
 # Increases the volume of the tv by 1
+    def volume_up(self):
+        if self.volume < 7:
+            self.volume += 1
 # Decreases the volume of the tv by 1
 # Gets the volume level for this tv
     def get_volume(self):
