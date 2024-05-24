@@ -15,11 +15,14 @@ class tv:
 # Get if the tv is on or off
     def get_on_or_off(self):
         return self.on
-# Returns the channel for this tv
 # Set a new channel for the tv
+    def set_channel(self, channel):
+        if self.on and (1 <= channel <= 120):
+            self.channel = channel
+# Increases the channel number by 1
+# Decreases the channel number by 1
+# Returns the channel for the tv
 # Set a new volume for the tv
 # Increases the volume of the tv by 1
 # Decreases the volume of the tv by 1
 # Gets the volume level for this tv
-# Increases the channel number by 1
-# Decreases the channel number by 1
