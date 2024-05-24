@@ -5,8 +5,11 @@ from tv import tv
 def test_tv():
 # Create instances of the class
     tv_1 = tv()
-    tv_2 - tv()
+    tv_2 = tv()
 # Turn on the tv 1 
+    tv_1.turn_on()
+# Turn on tv 2
+    tv_2.turn_on()
 # Set channel for tv 1
 # Set volume for tv 1
 # Set channel for tv 2
