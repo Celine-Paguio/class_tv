@@ -1,6 +1,7 @@
 # This program is the test driver that will produce the output from the class tv
 
 # Import tv
+from tv import tv
 # Create instances of the class
 # Turn on the tv 1 
 # Set channel for tv 1
