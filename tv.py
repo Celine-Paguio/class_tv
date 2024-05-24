@@ -7,7 +7,11 @@ class tv:
 # Set the initial state of the tv
         self.on = False
 # Turns on the tv
+    def turn_on(self):
+        self.on = True
 # Turns off the tv
+    def turn_off(self):
+        self.on = False
 # Get if the tv is on or off
 # Returns the channel for this tv
 # Set a new channel for the tv
