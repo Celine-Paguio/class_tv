@@ -20,6 +20,9 @@ class tv:
         if self.on and (1 <= channel <= 120):
             self.channel = channel
 # Increases the channel number by 1
+    def channel_up(self):
+        if self.channel < 120:
+            self.channel += 1
 # Decreases the channel number by 1
 # Returns the channel for the tv
     def get_channel(self):
