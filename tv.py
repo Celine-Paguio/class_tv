@@ -22,6 +22,8 @@ class tv:
 # Increases the channel number by 1
 # Decreases the channel number by 1
 # Returns the channel for the tv
+    def get_channel(self):
+        return self.channel
 # Set a new volume for the tv
 # Increases the volume of the tv by 1
 # Decreases the volume of the tv by 1
