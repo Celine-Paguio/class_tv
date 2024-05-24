@@ -3,6 +3,7 @@
 # Define the tv class
 class tv:
 # Use constructor
+    def __init__(self):
 # Set the initial state of the tv
 # Turns on the tv
 # Turns off the tv
